@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 15% auto;
+  scale: 2;
+  max-width: 800px;
+}
+
+.form {
+  display: grid;
+  grid-template-areas:
+    "fi fi si si"
+    "fi fi si si"
+    ".. cr cr .."
+  ;
+  justify-content: center;
+  text-align: center;
+}
+
+.fieldset__firstImage {
+  grid-area: fi;
+  display: grid;
+  gap: 5px;
+}
+
+.fieldset__secondImage {
+  grid-area: si;
+  display: grid;
+  gap: 5px;
+}
+
+.fieldset__result {
+  grid-area: cr;
+  display: grid;
+  gap: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  gap: 2px
+}
+
+.fieldset__input {
+  text-align: center;
+}
