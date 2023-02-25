@@ -1,1 +1,1 @@
-https://maciejkurpiecki.github.io/ratio-calculator.git/
+https://maciejkurpiecki.github.io/ratio-calculator/
